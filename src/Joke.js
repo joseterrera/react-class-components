@@ -1,6 +1,10 @@
 import React from "react";
 import "./Joke.css";
 
+
+
+
+
 function Joke({ vote, votes, text, id }) {
   const upVote = () => vote(id, +1);
   const downVote = () => vote(id, -1);
